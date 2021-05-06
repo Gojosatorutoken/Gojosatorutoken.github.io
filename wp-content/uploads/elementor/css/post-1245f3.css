@@ -1,0 +1,54 @@
+@font-face {
+    font-family: NorthStar;
+    src: url(NorthstarRegular.otf);
+  }
+.elementor-kit-12 {
+  --e-global-color-primary: #22333B;
+  --e-global-color-secondary: #dd7f03;
+  --e-global-color-text: Black;
+  --e-global-color-accent: #449c94;
+  --e-global-color-72753e9: #22333B;
+  --e-global-typography-primary-font-family: "NorthStar";
+  --e-global-typography-primary-font-weight: 600;
+  --e-global-typography-secondary-font-family: "Roboto Slab";
+  --e-global-typography-secondary-font-weight: 400;
+  --e-global-typography-text-font-family: "Baloo 2";
+  --e-global-typography-text-font-weight: 500;
+  --e-global-typography-accent-font-family: "Roboto";
+  --e-global-typography-accent-font-weight: 500;
+  font-family: "Baloo 2", Sans-serif;
+  font-weight: 600;
+}
+.elementor-kit-12 a {
+  font-family: NorthStar, Sans-serif;
+}
+.elementor-kit-12 h1 {
+  font-family: NorthStar, Sans-serif;
+}
+
+.elementor-kit-12 h2 {
+    font-family: NorthStar, Sans-serif;
+  }
+.elementor-kit-12 h4 {
+  font-weight: 400;
+}
+.elementor-section.elementor-section-boxed > .elementor-container {
+  max-width: 1140px;
+}
+.elementor-widget:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+h1.entry-title {
+  display: var(--page-title-display);
+}
+@media (max-width: 1024px) {
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1024px;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 767px;
+  }
+}

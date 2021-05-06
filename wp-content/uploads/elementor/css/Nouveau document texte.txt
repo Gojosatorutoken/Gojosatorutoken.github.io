@@ -1,0 +1,1 @@
+background-image url('background-main.gif');background-size cover;height 100vh; padding0; margin0;
